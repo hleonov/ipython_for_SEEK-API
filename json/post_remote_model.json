@@ -1,0 +1,34 @@
+{
+  "data": {
+    "type": "models",
+    "attributes": {
+      "title": "A Remote Model",
+      "content_blobs": [
+        {
+          "url": "http://seek.virtual-liver.de/data_files/1110/content_blobs/1325/download"
+        },
+        {
+          "url": "http://seek.virtual-liver.de/data_files/1110.xml"
+        }
+      ]
+    },
+    "relationships": {
+      "creators": {
+        "data": [
+          {
+            "id": "1",
+            "type": "people"
+          }
+        ]
+      },
+      "projects": {
+        "data": [
+          {
+            "id": "PROJECT_ID",
+            "type": "projects"
+          }
+        ]
+      }
+    }
+  }
+}

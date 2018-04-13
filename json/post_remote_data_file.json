@@ -1,0 +1,41 @@
+{
+  "data": {
+    "type": "data_files",
+    "attributes": {
+      "title": "A Remote Data File",
+      "content_blobs": [
+        {
+          "url": "http://seek.virtual-liver.de/data_files/1110/content_blobs/1325/download",
+          "original_filename": "data-example.png",
+          "content_type": "image/png"
+        }
+      ]
+    },
+    "relationships": {
+      "creators": {
+        "data": [
+          {
+            "id": "1",
+            "type": "people"
+          }
+        ]
+      },
+      "assays": {
+        "data": [
+          {
+            "id": "ASSAY_ID",
+            "type": "assays"
+          }
+        ]
+      },
+      "projects": {
+        "data": [
+          {
+            "id": "PROJECT_ID",
+            "type": "projects"
+          }
+        ]
+      }
+    }
+  }
+}

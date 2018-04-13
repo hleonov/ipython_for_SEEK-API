@@ -1,0 +1,92 @@
+{
+  "data": {
+    "type": "assays",
+    "attributes": {
+      "title": "Another Modeling Assay",
+      "assay_class": {
+        "key": "MODEL"
+      },
+      "assay_type": {
+        "uri": "http://www.mygrid.org.uk/ontology/JERMOntology#Cell_cycle"
+      },
+      "tags": ["Assay-tag1", "Assay-tag2", "Assay-tag3"],
+      "other_creators": "Anonymous creator",
+      "description": "modeling analysis",
+      "policy": {
+        "access": "download",
+        "permissions": [
+          {
+            "resource_id": "PROJECT_ID",
+            "resource_type": "projects",
+            "access": "manage"
+          }
+        ]
+      }
+    },
+    "relationships": {
+      "study": {
+        "data":
+        {
+          "id": "STUDY_ID",
+          "type": "studies"
+        }
+      },
+      "publications":{
+        "data": [
+          {
+            "id": "1",
+            "type": "publications"
+          }
+        ]
+      },
+      "organisms":{
+        "data": [
+          {
+            "id": "548322508",
+            "type": "organisms"
+          }
+        ]
+      },
+      "sops":{
+        "data": [
+          {
+            "id": "SOP_ID",
+            "type": "sops"
+          }
+        ]
+      },
+      "models":{
+        "data": [
+          {
+            "id": "MODEL_ID",
+            "type": "models"
+          }
+        ]
+      },
+      "data_files":{
+        "data": [
+          {
+            "id": "DATAFILE_ID",
+            "type": "data_files"
+          }
+        ]
+      },
+      "documents": {
+        "data": [
+          {
+            "id": "DOCUMENT_ID",
+            "type": "documents"
+          }
+        ]
+      },
+    "creators": {
+        "data": [
+          {
+            "id": "2",
+            "type": "people"
+          }
+        ]
+      }
+    }
+  }
+}

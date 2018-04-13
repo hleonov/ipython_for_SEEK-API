@@ -1,0 +1,45 @@
+{
+  "data": {
+    "type": "investigations",
+    "attributes": {
+      "title": "Another Investigation",
+      "policy": {
+        "access": "download",
+        "permissions": [{"resource_id": "PROJECT_ID",
+                         "resource_type": "projects",
+                         "access": "manage"}]
+      },
+      "description": "This is a complex investigation",
+      "other_creators": "John Smith"
+    },
+    "relationships": {
+       "projects": {
+       "data": [
+          {
+            "id": "PROJECT_ID",
+            "type": "projects"
+          }
+        ]
+      },
+      "publications":{
+        "data": [
+          {
+            "id": "1",
+            "type": "publications"
+          }
+        ]
+      },"creators": {
+        "data": [
+          {
+            "id": "1",
+            "type": "people"
+          },
+          {
+            "id": "2",
+            "type": "people"
+          }
+        ]
+      }
+    }
+  }
+}

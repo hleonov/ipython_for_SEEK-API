@@ -1,0 +1,43 @@
+{
+  "data": {
+    "type": "projects",
+    "attributes": {
+      "avatar": null,
+      "title": "Another Test project",
+      "description": "example project for the API",
+      "web_page": "http://www.lisym.org",
+      "wiki_page": "http://www.h-its.org",
+      "default_license": "Other (Open)",
+      "default_policy": {
+        "access": "view",
+        "permissions": [
+          {
+            "resource_id": "1",
+            "resource_type": "people",
+            "access": "manage"
+          },
+          {
+            "resource_id": "1",
+            "resource_type": "projects",
+            "access": "download"
+          },
+          {
+            "resource_id": "1",
+            "resource_type": "institutions",
+            "access": "view"
+          }
+        ]
+      }
+    },
+    "relationships": {
+      "organisms": {
+        "data": [
+          {
+            "id": "548322508",
+            "type": "organisms"
+          }
+        ]
+      }
+    }
+  }
+}

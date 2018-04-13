@@ -1,0 +1,54 @@
+{
+  "data": {
+    "type": "documents",
+    "attributes": {
+      "title": "A test Document",
+      "description": "This is the description",
+      "tags": ["tag1", "tag2"],
+      "license": "CC-BY-4.0",
+      "other_creators": "John Smith, Jane Smith",
+      "content_blobs": [
+        {
+          "original_filename": "a_pdf_file.pdf",
+          "content_type": "application/pdf"
+        }
+      ],
+      "policy": {
+        "access": "download",
+        "permissions": [
+          {
+            "resource_id": "PROJECT_ID",
+            "resource_type": "projects",
+            "access": "edit"
+          }
+        ]
+      }
+    },
+    "relationships": {
+      "creators": {
+        "data": [
+          {
+            "id": "2",
+            "type": "people"
+          }
+        ]
+      },
+      "projects": {
+        "data": [
+          {
+            "id": "PROJECT_ID",
+            "type": "projects"
+          }
+        ]
+      },
+      "assays": {
+        "data": [
+          {
+            "id": "ASSAY_ID",
+            "type": "assays"
+          }
+        ]
+      }
+    }
+  }
+}
