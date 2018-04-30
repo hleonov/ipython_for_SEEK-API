@@ -1,0 +1,43 @@
+{
+  "data": {
+    "type": "studies",
+    "attributes": {
+      "title": "PKDB Caffeine Study",
+      "description": "Pharmacokinetics data set for caffeine",
+      "experimentalists": "",
+      "person_responsible_id": "KOENIG_ID",
+      "other_creators": "",
+      "policy": {
+        "access": "view",
+        "permissions": [
+          {
+            "resource_id": "PROJECT_ID",
+            "resource_type": "projects",
+            "access": "download"
+          }
+        ]
+      }
+    },
+    "relationships": {
+      "investigation": {
+        "data":
+        {
+          "id": "INVESTIGATION_ID",
+          "type": "investigations"
+        }
+      },
+      "publications":{
+        "data": [
+        ]
+      },
+      "creators": {
+        "data": [
+          {
+            "id": "KOENIG_ID",
+            "type": "people"
+          }
+        ]
+      }
+    }
+  }
+}
