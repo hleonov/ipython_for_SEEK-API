@@ -2,15 +2,15 @@
   "data": {
     "type": "data_files",
     "attributes": {
-      "title": "A test Data File",
-      "description": "This is the description of the test dT file",
-      "tags": ["tag1", "tag2"],
-      "license": "CC-BY-4.0",
-      "other_creators": "John Smith, Jane Smith",
+      "title": "CSV data (AUTHOR_ID)",
+      "description": "Digitized pharmacokinetics data.",
+      "tags": ["caffeine", "pharmacokinetics"],
+      "license": "License Not Specified",
+      "other_creators": "",
       "content_blobs": [
         {
-          "original_filename": "a_pdf_file.pdf",
-          "content_type": "application/pdf"
+          "original_filename": "AUTHOR_ID.csv",
+          "content_type": "text/csv"
         }
       ],
       "policy": {
@@ -28,7 +28,7 @@
       "creators": {
         "data": [
           {
-            "id": "1",
+            "id": "KOENIG_ID",
             "type": "people"
           }
         ]
@@ -50,20 +50,10 @@
         ]
       },
       "publications": {
-        "data": [
-          {
-            "id": "1",
-            "type": "publications"
-          }
-        ]
+        "data": []
       },
       "events": {
-        "data": [
-          {
-            "id": "1",
-            "type": "events"
-          }
-        ]
+        "data": []
       }
     }
   }
