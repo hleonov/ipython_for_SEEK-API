@@ -2,7 +2,7 @@
   "data": {
     "type": "data_files",
     "attributes": {
-      "title": "CSV data (AUTHOR_ID)",
+      "title": "TITLE",
       "description": "Digitized pharmacokinetics data.",
       "tags": ["caffeine", "pharmacokinetics"],
       "license": "License Not Specified",
@@ -10,7 +10,7 @@
       "content_blobs": [
         {
           "original_filename": "AUTHOR_ID.csv",
-          "content_type": "text/csv"
+          "content_type": "CONTENT_TYPE"
         }
       ],
       "policy": {
