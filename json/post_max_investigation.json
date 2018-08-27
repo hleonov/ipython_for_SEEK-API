@@ -5,9 +5,15 @@
       "title": "Another Investigation",
       "policy": {
         "access": "download",
-        "permissions": [{"resource_id": "PROJECT_ID",
-                         "resource_type": "projects",
-                         "access": "manage"}]
+        "permissions": [
+          {
+            "resource": {
+                "id": "PROJECT_ID",
+                "type": "projects"
+            },
+            "access": "manage"
+          }
+        ]
       },
       "description": "This is a complex investigation",
       "other_creators": "John Smith"

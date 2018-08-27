@@ -12,18 +12,24 @@
         "access": "view",
         "permissions": [
           {
-            "resource_id": "1",
-            "resource_type": "people",
+	    "resource": {
+               "id": "1",
+               "type": "people"
+            },
             "access": "manage"
           },
           {
-            "resource_id": "1",
-            "resource_type": "projects",
-            "access": "download"
+            "resource": {
+               "id": "1",
+               "type": "projects"
+            },
+            "access": "manage"
           },
           {
-            "resource_id": "1",
-            "resource_type": "institutions",
+            "resource": {
+               "id": "1",
+               "type": "institutions"
+            },
             "access": "view"
           }
         ]
